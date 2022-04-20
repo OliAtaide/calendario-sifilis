@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.card,
+.data,
+.aviso,
+.nav {
+    background-color: #C4C4C4;
+    border-width: 0;
+}
+
+.nav2 {
+    background-color: #DFDFDF;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.data {
+    width: 120px;
+    height: 120px;
+}
+
+.dia {
+    font-size: 40px;
+}
+
+img, .btn-plus {
+    border-radius: 8px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #0066FF;
+}
+
+.container {
+    padding: 5vw;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav-link {
+    color: black !important;
+}
+.btn-plus{
+    background-color: #D0D0D0;
+    border: 1px solid black;
+}
+
+.thumbnail {
+    max-width: 25%;
+}
+
+table {
+    border-collapse:separate;
+    border: 1px solid black;
+    border-radius: 6px;
+    table-layout: fixed;
+    background-color: #F2F2F2;
+}
+
+
+td, th {
+    border-left:solid black 1px;
+}
+
+th {
+    border-top: none;
+}
+
+td{
+    border-bottom: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+
+/* th div{
+    border: solid black; 
+    border: 1px solid black;
+    border-radius: 12px 12px 0 0;
+}
+
+.first{
+    border-width: 1px 1px 0 0;
+}
+
+
+
+tr, th, td{
+    border: none !important;
+    padding: 0 !important;
+} */
+
+td ul{
+    min-height: 400px;
+}
+
+ul li{
+    list-style: none;
+    background-color: #C4C4C4;
+}
