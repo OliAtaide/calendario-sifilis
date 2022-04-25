@@ -14,11 +14,18 @@
     border-width: 0;
 }
 
-.card, .aviso{
+.card, .aviso, .footer2{
     background-color: var(--secondary);
 }
+.footer1{
+    height: 50px;
+}
 
-.nav2, .data {
+.footer2{
+    height: 100px;
+}
+
+.nav2, .data, .footer1 {
     background-color: var(--primary);
 }
 
@@ -82,7 +89,6 @@ table {
     background-color: #F2F2F2;
 }
 
-
 td,
 th {
     border-left: solid black 1px;
@@ -100,23 +106,6 @@ td:first-child,
 th:first-child {
     border-left: none;
 }
-
-/* th div{
-    border: solid black; 
-    border: 1px solid black;
-    border-radius: 12px 12px 0 0;
-}
-
-.first{
-    border-width: 1px 1px 0 0;
-}
-
-
-
-tr, th, td{
-    border: none !important;
-    padding: 0 !important;
-} */
 
 td ul {
     min-height: 400px;
@@ -138,4 +127,12 @@ ul li {
 
 path {
     fill: var(--primary);
+}
+
+.hoje{
+    background-color: rgba(208, 208, 208, 1);
+}
+
+.card-title{
+    cursor: pointer;    
 }

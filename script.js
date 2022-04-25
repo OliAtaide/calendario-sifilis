@@ -38,3 +38,7 @@ $('.dropdown-item').click(function () {
     document.documentElement.style.setProperty('--primary', colors[index].primary);
     document.documentElement.style.setProperty('--secondary', colors[index].secondary);
 })
+
+$('.card-title').click(function () {
+    location.href = 'acontecimento.html';
+})
