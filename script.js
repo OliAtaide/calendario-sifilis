@@ -42,3 +42,7 @@ $('.dropdown-item').click(function () {
 $('.card-title').click(function () {
     location.href = 'acontecimento.html';
 })
+
+$('.back').click(function () {
+    location.href = $(this).data('href');
+})

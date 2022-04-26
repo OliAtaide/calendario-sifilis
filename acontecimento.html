@@ -20,8 +20,9 @@
         <div class="nav navbar navbar-expand-lg">
             <div class="container-fluid container py-0">
                 <a href="index.html" class="navbar-brand">
-                    <div class="py-2 d-flex align-items-center">
-                        <svg width="161" height="161" fill="none" version="1.1" viewBox="0 0 161 161"
+                    <!-- d-inline d-sm-flex -->
+                    <div class="py-2 d-flex flex-column flex-sm-row align-items-center justify-content-center">
+                        <svg class="m-3" width="161" height="161" fill="none" version="1.1" viewBox="0 0 161 161"
                             xmlns="http://www.w3.org/2000/svg">
                             <g clip-rule="evenodd" fill="#000" fill-rule="evenodd">
                                 <path
@@ -54,8 +55,12 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <span class="ms-5">
-                            <h1><b>Sífilis: A grande imitadora</b></h1>
+                        <span class="text-center text-sm-start">
+                            <h1>
+                                <b>
+                                    Sífilis: A grande limitadora
+                                </b>
+                            </h1>
                             <p>O calendário da história da sífilis</p>
                         </span>
                     </div>
@@ -114,7 +119,13 @@
                         </li>
                     </ul>
                 </div>
-                <ul class="navbar-nav">
+                <select class="w-50 form-select d-sm-none bg-transparent border-0" aria-label="Default select example">
+                    <option selected>Português</option>
+                    <option value="1">English</option>
+                    <option value="2">Español</option>
+                    <option value="3">Français</option>
+                </select>
+                <ul class="navbar-nav d-none d-sm-flex">
                     <li class="nav-item">
                         <a href="" class="nav-link">
                             Português
@@ -141,10 +152,18 @@
     </header>
     <main>
         <div class="container py-0">
+            <div class="my-3">
+                    <button class="btn back" data-href="index.html">
+                        <i class="bi bi-chevron-left"></i>
+                        <b>
+                            Todos os acontecimentos
+                        </b>
+                    </button>
+            </div>
             <div class="aviso text-center py-2 my-3">
                 <span>Este evento já passou.</span>
             </div>
-            <div class="card px-3">
+            <div class="card px-sm-3">
                 <div class="card-body d-flex flex-column">
                     <div class="d-flex">
                         <h3 class="me-auto mb-2 mb-lg-0">
@@ -158,7 +177,7 @@
                             </strong>
                         </span>
                     </div>
-                    <img class="thumbnail img-fluid align-self-center" src="img.png" alt="">
+                    <img class="thumbnail img-fluid w-25 align-self-center" src="img.png" alt="">
                     <span class="py-3">
                         Claude Quétel, nasceu em 30 de dezembro de 1939. Historiador e professor francês nascido em
                         Bernières-sur-Mer (Calvados). Autor de duas dezenas de livros, ganhou vários prêmios por seu

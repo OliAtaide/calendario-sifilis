@@ -4,7 +4,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-:root{
+:root {
     --primary: #bc3b3bff;
     --secondary: #c96262ff;
 }
@@ -14,18 +14,24 @@
     border-width: 0;
 }
 
-.card, .aviso, .footer2{
+.card,
+.aviso,
+.footer2 {
     background-color: var(--secondary);
 }
-.footer1{
+
+.footer1 {
     height: 50px;
 }
 
-.footer2{
+.footer2 {
     height: 100px;
 }
 
-.nav2, .data, .footer1 {
+.nav2,
+.data,
+.data-mb,
+.footer1 {
     background-color: var(--primary);
 }
 
@@ -33,7 +39,8 @@
     color: black;
 }
 
-.card {
+.card,
+.data-mb {
     border-radius: 12px;
 }
 
@@ -75,10 +82,6 @@ img,
 .btn-plus {
     background-color: #D0D0D0;
     border: 1px solid black;
-}
-
-.thumbnail {
-    max-width: 25%;
 }
 
 table {
@@ -129,10 +132,16 @@ path {
     fill: var(--primary);
 }
 
-.hoje{
+.hoje {
     background-color: rgba(208, 208, 208, 1);
 }
 
-.card-title{
-    cursor: pointer;    
+.card-title {
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .thumbnail {
+        width: 50% !important;
+    }
 }
